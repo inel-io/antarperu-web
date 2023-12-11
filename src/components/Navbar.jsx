@@ -58,34 +58,34 @@ export const Navbar = () => {
                     ))}
                 </nav>
             </section>
-            <section className='hidden md:block'>
-                <div className='py-3 border-b-[2px] border-primary mx-10'>
+            <section className='hidden md:block py-1'>
+                <div className='py-1 border-b-[1px] border-primary mx-10'>
                         <div className='flex items-center justify-between lg:px-20'>
                             <section className='flex gap-5'>
                                 <div className='flex gap-2 items-center'>
                                     <Image src={Phone} alt="phone" className='h-[20px]'/>
                                     <p className='text-primary '>+51 939 044 095</p>
                                 </div>
-                                <Image src={Line} alt="linea" className='h-[25px]'/>
+                                <Image src={Line} alt="linea" className='h-[24px]'/>
                                 <div className='flex gap-2 items-center'>
                                     <Image src={Email} alt="email" className='h-[15px]'/>
                                     <p className='text-primary'>servicios@antarperusac.com</p>
                                 </div>
                             </section> 
-                            <section className='flex gap-5 sticky'>
+                            <section className='flex items-center'>
                                 <Link href="https://www.facebook.com/profile.php?id=100088215922096" target='_blank'><Image src={Facebook} alt="facebook"  className='h-[25px]'/></Link>
-                                <Link href="#" target='_blank'><Image src={Instagram} alt="instagram" className='h-[25px]' /></Link>
+                                <Link href="https://www.instagram.com/antarperuoficial/" target='_blank'><Image src={Instagram} alt="instagram" className='h-[25px]' /></Link>
                             </section>
                         </div>
                 </div>
             </section>
             <section className='hidden md:block sticky top-0 bg-white'>
-                <section className='flex items-center justify-between px-10 lg:px-20 xl:px-40 py-1 shadow-md'>
+                <section className='flex items-center justify-between px-10 lg:px-20 xl:px-[122px] py-1 shadow-md'>
                     <Image src={Logo} alt='antar-peru' className='w-16 h-16'/>
                         <nav className='flex gap-20 lg:gap-36 xl:gap-44'>
                             {navRoutes.map((route, index) => (
                                 <ul key={index} className="">
-                                    <Link href={route.path}><li className='text-lg font-semibold p-1 hover:underline'>{route.name}</li></Link>
+                                    <Link href={route.path}><li className='text-lg p-1 hover:underline'>{route.name}</li></Link>
                                 </ul>
                             ))}
                         </nav>

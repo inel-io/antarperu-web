@@ -28,20 +28,20 @@ export const Inicio = () => {
             setDisplayText(textwri.slice(0, currentIndex + 1))
             setCurrentIndex(currentIndex + 1)
             }
-        },150)
+        },50)
 
         return() => clearTimeout(typingTimer)
         },[currentIndex])
 
     return( 
         <main id="" className="h-screen">
-            <section className={`h-[60%] bg-no-repeat bg-cover grid justify-center items-end ${bgImage} bg-center animate__animated animate__fadeInUp`}>
-                <div className="pb-10 grid justify-center items-center text-center">
-                    <p className="text-4xl md:text-5xl text-white font-semibold">Personal Calificado</p>
-                    <p className="text-lg text-white font-semibold">Equipo especializado en  cada servicio que brindamos</p>
+            <section className={`h-[75%] bg-no-repeat bg-cover grid justify-center items-end ${bgImage} bg-center animate__animated animate__fadeInUp`}>
+                <div className="pb-16 grid justify-center items-center text-center">
+                    <p className="text-4xl md:text-5xl xl:text-7xl text-white font-semibold">Personal Calificado</p>
+                    <p className="text-lg text-white font-semibold lg:text-xl">Equipo especializado en  cada servicio que brindamos</p>
                 </div>
             </section>
-            <section className="flex flex-col justify-center bg-[#F3F5F6] h-[40%] items-center">
+            <section className="flex flex-col justify-center bg-[#F3F5F6] h-[25%] items-center">
                 <div className="container text-center">
                     <p className="text-2xl md:text-5xl font-semibold pb-5 text-primary">{displayText}</p>
                     <p className="text-primary text-1xl md:text-2xl">Antar Perú es una empresa especializada en el servicio de</p>

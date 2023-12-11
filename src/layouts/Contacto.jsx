@@ -23,7 +23,7 @@ export const Contacto = () => {
                         ></iframe>
                     </div>
                     <form className="w-full md:w-[50%] container pt-20 md:pt-0">
-                        <h2 className="pl-4 md:pl-24 pb-16 text-3xl font-semibold">Contactenos:</h2>
+                        <h2 className="pl-4 md:pl-24 pb-16 text-3xl lg:text-4xl font-semibold">Contactenos:</h2>
                         <div className="container">
                             <div className="flex flex-col md:flex-row justify-around items-center gap-14 md:gap-20 px-4 md:px-24">
                                 <div className="grid gap-3 w-full md:w-1/2 md:mb-5 ">
@@ -55,14 +55,14 @@ export const Contacto = () => {
                 <div className="grid md:grid-cols-2 py-12 md:pr-5 xl:pr-0">
                     <div className="grid justify-center">
                         <p className="text-white text-3xl text-center md:text-start">Autorizados por:</p>
-                        <div className="flex items-center gap-3 md:gap-5">
+                        <div className="flex items-center gap-3 md:gap-10 lg:gap-16">
                             <Image src={Autorizado1} alt={Autorizado1} className="md:w-28 h-28"/>
                             <Image src={Autorizado2} alt={Autorizado2} className="md:w-28 h-28"/>
                         </div>
                     </div>
                     <div className="grid justify-center">
                         <p className="text-white text-3xl text-center md:text-start">Estamos asociados a:</p>
-                        <div className="grid items-center justify-center gap-3 md:flex md:pb-5 md:gap-5">
+                        <div className="grid items-center justify-center gap-3 md:flex md:pb-5 md:gap-5 lg:gap-16">
                             <Image src={Autorizado3} alt={Autorizado1}/>
                             <Image src={Autorizado4} alt={Autorizado2}/>
                             <Image src={Autorizado5} alt={Autorizado3}/>

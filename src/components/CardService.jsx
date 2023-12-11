@@ -43,10 +43,10 @@ export const CardService = ({servicio,detalle}) => {
                 <button className='container py-5' onClick={MostrarCard}>
                     <div className='flex items-center gap-10 justify-evenly px-1'>
                         <div>
-                            <Image src={Point} alt='point' className='h-4 w-4'/>
+                            <Image src={Point} alt='point' className='h-3 w-3'/>
                         </div>
                         <article>
-                            <p className='text-xl font-semibold lg:text-2xl'>{servicio}</p>
+                            <p className='text-xl lg:text-2xl'>{servicio}</p>
                         </article>
                         <div className={`${open ? "rotate-90 transition-all duration-700" : "block transition-all duration-700"}`}>
                             <Image src={Flecha} alt='flecha' className='h-7 w-7'/>

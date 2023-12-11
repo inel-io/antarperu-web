@@ -2,10 +2,10 @@ import { CardService } from "../components/CardService"
 
 export const Servicios = () => {
     return(
-        <section id="services" className="py-20">
-            <div className="container">
-                <aside className="flex justify-center items-center">
-                    <p className="pt-5 text-3xl md:text-5xl font-bold border-b-4 border-primary">Nuestro Servicios</p>
+        <section id="services">
+            <div className="container py-16">
+                <aside className="flex justify-center items-center pb-16">
+                    <p className="text-3xl md:text-5xl font-bold border-b-4 border-primary">Nuestro Servicios</p>
                 </aside>
                 <article className="grid gap-1 pt-10">
                     <CardService
